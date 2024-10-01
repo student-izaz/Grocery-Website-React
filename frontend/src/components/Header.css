@@ -1,0 +1,101 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(201, 198, 198);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: white;
+}
+.logo {
+  line-height: 20px;
+}
+.logo span {
+  font-size: 13px;
+  color: orange;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.left_part {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.searchbar {
+  position: relative;
+}
+.searchbar input {
+  width: 350px;
+  padding: 10px;
+  border: 0;
+  outline: none;
+  background: rgb(245, 244, 244);
+  border-radius: 8px;
+}
+.searchbar i {
+  font-size: 17px;
+  color: grey;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+.helpline {
+  margin-left: 110px;
+}
+.helpline p {
+  margin-right: 30px;
+  color: var(--secondary-color);
+}
+.helpline p:hover {
+  color: rgb(251, 97, 15);
+  cursor: pointer;
+}
+.helpline i {
+  margin-right: 10px;
+}
+.user {
+  padding: 0px 10px;
+  border-radius: 8px;
+  color: var(--secondary-color);
+  background: rgb(245, 244, 244);
+  cursor: pointer;
+}
+.user img {
+  width: 50px;
+  height: 50px;
+}
+.user i {
+  margin-left: 10px;
+}
+.wishlist {
+  position: relative;
+}
+.wishlist i {
+  padding: 10px;
+  background: rgb(255, 227, 193);
+  font-size: 17px;
+  color: rgb(250, 179, 92);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.wishlist span {
+  position: absolute;
+  padding: 1px 6px;
+  font-size: 12px;
+  background-color: rgb(250, 179, 92);
+  color: white;
+  border-radius: 50%;
+  left: 25px;
+  top: 5px;
+}
+.user p {
+  width: 100px;
+  font-weight: 400;
+}
+.user p:hover {
+  color: rgb(236, 126, 66);
+}

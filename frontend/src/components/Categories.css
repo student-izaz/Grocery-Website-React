@@ -1,0 +1,45 @@
+.categories{
+    width: 100%;
+    height: 330px;
+    background: rgb(245, 244, 244);
+    padding: 50px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .categories .heading button{
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(251, 97, 15);
+    margin-bottom: 20px;
+  }
+  h2{
+    color: rgb(47, 45, 45);
+  }
+  .cate_slider{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .cate_slider::-webkit-scrollbar{
+    display: none;
+  }
+  .cate_option{
+    width: 200px;
+    height: 130px;
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  
+  

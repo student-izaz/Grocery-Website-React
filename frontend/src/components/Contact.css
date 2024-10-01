@@ -1,0 +1,95 @@
+.contact-area{
+    padding: 60px 100px;
+    display: flex;
+    row-gap: 30px;
+    background: rgb(245, 244, 244);
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.rg-3{
+    row-gap: 30px;
+}
+.rg-2{
+    row-gap: 20px;
+}
+.contact-form{
+    width: 47%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+input, textarea{
+    padding: 12px;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+    border: 1px solid rgb(154, 154, 154);
+}
+label{
+    font-size: 14px;
+    color: #313850;
+}
+.submit-btn{
+    width: 30%;
+    padding: 10px 20px;
+    background-color: rgb(251, 97, 15);
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: rgb(193, 76, 13);
+
+}
+.heading h2{
+    color: #313850;
+    font-size: 24px;
+}
+.head-text{
+    color: #313850;
+}
+.contact-location{
+    width: 47%;
+}
+
+.locat-option{
+    height: 130px;
+    max-height: 200px;
+    padding: 18px 20px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.locat-option:hover{
+    /* height: ; */
+}
+.location{
+    /* padding: 18px 20px; */
+    /* background-color: white; */
+    display: flex;
+    position: relative;
+}
+.location p{
+    margin-left: 10px;
+}
+.check-icon{
+    position: absolute;
+    right: 20px;
+}
+.loca-icon{
+    color: rgb(251, 97, 15);
+    font-size: 20px;
+}
+.about-location{
+    height: 0%;
+    padding-top: 16px;
+    border-top: 1px solid rgb(154, 154, 154);
+}

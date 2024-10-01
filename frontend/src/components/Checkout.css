@@ -1,0 +1,15 @@
+.sub-header{
+    margin-top: 120px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(33, 33, 62);
+}
+.link a{
+    color: rgb(201, 198, 198);
+}
+.Active a{
+    color: black;
+}
+.hero-section{
+    width: 100%;
+}
